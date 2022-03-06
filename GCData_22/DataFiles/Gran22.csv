@@ -1,4 +1,4 @@
-Name,l_deg,b_deg,RA_deg,Dec_deg,mua_cos,mud,mul_cosb,mub,Fe_H,Fe_H_Err,Mass,Mass_Err,Dist,Mv,vlos,vlos_err
+Name,l_deg,b_deg,ra_deg,dec_deg,mua_cos,mud,mul_cosb,mub,Fe_H,Fe_H_Err,Mass,Mass_Err,Dist,Mv,vlos,vlos_err
 Gran1,-1.223,-3.977,269.651,-32.020,-8.10,-8.01,-10.94,3.03,-1.19,0.19,0.45e5,0.08e5,7.94,-5.46,32.30,1.87
 Gran2,-0.771,8.587,257.890,-24.849,0.19,-2.57,-1.86,-1.76,-2.07,0.17,1.84e5,0.4e5,16.60,-5.92,53.22,1.67
 Gran3,-10.244,3.424,256.256,-35.496,-3.78,0.66,-1.76,3.71,-2.37,0.18,1.24e5,0.25e5,12.02,-6.02,74.32,2.70

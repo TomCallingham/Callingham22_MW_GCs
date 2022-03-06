@@ -1,16 +1,18 @@
 import numpy as np
 labels = {}
-labels["name"] = ["Name", "Names", "name", "names", "cluster", "NGC", "ngc", "name2", "Name2"]
+
+labels["name"] = ["Name", "Names", "name", "names",
+                  "cluster", "Cluster", "NGC", "ngc", "name2", "Name2"]
 
 # Chemistry
-labels["Fe_H"] = ["Fe_H", "Met", "Metallicity"]
+labels["Fe_H"] = ["Fe_H", "Met", "Metallicity", "[Fe/H]", "Fe"]
 labels["Alpha_Fe"] = ["Alpha_Fe", "Alpha"]
 
 # Age
 labels["Age"] = ["Age"]
 
 # Magnitude
-labels["Mv"] = ["Mv", "Mvt"]
+labels["Mv"] = ["Mv", "Mvt", "M_v_t", "MV"]
 labels["m_Mv"] = ["m_Mv"]
 
 # Mass
@@ -41,6 +43,7 @@ for l in list(labels.keys()):
 
 
 def process_properties(props):
+    props = np.char.strip(props)
     known_props = np.array(list(property_parser.keys()))
     new_props = props[np.isin(props, known_props, invert=True)]
     for p in new_props:

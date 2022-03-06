@@ -1,4 +1,4 @@
-### Variant_Names
+# Variant_Names
 alt_name_parse = {}
 # Terzan
 alt_name_parse = alt_name_parse | {f"Ter{i}": f"Terzan{i}" for i in range(1, 15)}
@@ -30,7 +30,7 @@ alt_name_parse["ESO452SC11"] = "ESO452"
 alt_name_parse["Ryu05"] = "Ryu059"
 alt_name_parse["Ryu87"] = "Ryu879"
 
-### Set Preferences for Names
+# Set Preferences for Names
 name_parse = {}
 name_parse["1636-283"] = "ESO452"
 name_parse["NGC104"] = "47Tuc"
